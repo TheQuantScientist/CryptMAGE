@@ -9,7 +9,7 @@ In this project, the authors propose a novel approach to handling raw OHLCV cryp
 
 - **Data Preprocessing**: Raw cryptocurrency price data is cleaned and normalized to ensure consistent and accurate input for the model.
 - **Feature Engineering**: Custom features are generated to capture market trends and reduce dimensionality, resulting in a 60% reduction in feature correlation.
-- **Model Training**: The machine learning model is trained using the engineered features, with hyperparameters optimized for optimal performance.
+- **Model Training**: The vision model (ViT, Swin, DeiT, etc.) is trained using the engineered features, with hyperparameters optimized for optimal performance.
 - **Evaluation**: The model is evaluated using standard metrics like Mean Absolute Error (MAE) and Root Mean Square Error (RMSE), showcasing its effectiveness in predicting market trends.
 
 ## Technologies Used
@@ -19,7 +19,7 @@ In this project, the authors propose a novel approach to handling raw OHLCV cryp
 - **NumPy**: Utilized for numerical computations and data normalization.
 - **Scikit-learn**: Employed for model training and evaluation.
 - **Matplotlib**: Used for visualizing data correlations and model performance.
-- **Hugging Face Transformers**: Used for pre-trained Vision Transformers.
+- **Hugging Face Transformers**: Used for pre-trained Vision Transformers during training processes.
 - **Lightning AI**: Utlized for cloud environment, enabling the use of NVIDIA A10 Tensor Core GPU.
 
 ## Reproduce
