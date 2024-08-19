@@ -24,4 +24,6 @@ In this project, the authors propose a novel approach to handling raw OHLCV cryp
 
 ## Reproduce
 
-To reproduce the research, simply download the notebook file and run it from start to finish. The steps are organized sequentially, ensuring that the entire process—from data preprocessing to model evaluation—can be easily replicated with ease. Modifications are needed only if users switch stock datasets. NVIDIA A10 Tensor Core GPU is required for rendering. 
+- To reproduce the research, simply download the notebook file and run it from start to finish. The steps are organized sequentially, ensuring that the entire process—from data preprocessing to model evaluation—can be easily replicated with ease. Modifications are needed only if users switch stock datasets. 
+- NVIDIA A10 Tensor Core GPU is required for rendering.
+- Visit [LightningAI Studio](https://lightning.ai/s3926339/studios/cryptmage-from-coins-to-images) for full access to graphical resources and training/testing data, and GPU. 
