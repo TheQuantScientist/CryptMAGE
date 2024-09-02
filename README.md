@@ -1,8 +1,8 @@
 # Publication 
 
-This project is under submission for presentation and publication in the Financial Innovation Journal (Q1-Top 5% Global Ranking), published on SpringerOpen as "[CryptMAGE: Vision Transformer for Intraday Cryptocurrency Time Series Price Movements Detection](https://lightning.ai/s3926339/studios/cryptmage-from-coins-to-images)". 
+This project is under submission for presentation and publication in the Financial Innovation Journal (Q1-Top 5% Global Ranking).
 
-**Train data can be found at:**
+**Train images can be found at:**
 > https://drive.google.com/drive/folders/1tGVeAdG5HS4LJASb3UY-YysXC1GutXWI?usp=sharing
 
 **Re-produce this project in LightningAI:**
