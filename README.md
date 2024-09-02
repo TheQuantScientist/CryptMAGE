@@ -2,6 +2,10 @@
 
 This project is under submission for presentation and publication in the Financial Innovation Journal (Q1-Top 5% Global Ranking), published on SpringerOpen as "[CryptMAGE: Vision Transformer for Intraday Cryptocurrency Time Series Price Movements Detection](https://lightning.ai/s3926339/studios/cryptmage-from-coins-to-images)". 
 
+> https://drive.google.com/drive/folders/1tGVeAdG5HS4LJASb3UY-YysXC1GutXWI?usp=sharing
+
+
+
 ## Introduction 
 In this project, the authors propose a novel approach to handling raw OHLCV cryptocurrency time series data. Instead of treating numerical sequences as mere numbers, each feature and indicator is converted into unique images, which are then fed into pre-trained Vision Transformer models for binary classification of upward or downward movement. To preserve valuable temporal dependencies inherent in crypto data, the time series are segmented into continuous 4-hour intervals. Additionally, due to the high correlation among OHLCV variables, feature engineering is employed to derive the Moving Average (MA) and Relative Strength Index (RSI) from closing prices. This ensures that the correlation between indicators remains below 50%, creating a more challenging environment for model performance. Results demonstrate that the base Swin Transformer consistently outperforms other baseline models from both image-based and traditional deep learning groups. This project aims to pioneer new research avenues in modern finance, enhancing pattern recognition capabilities for hourly crypto trading in the future.
 
