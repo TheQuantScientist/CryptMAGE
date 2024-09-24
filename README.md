@@ -18,7 +18,6 @@ Why not consider time series as images? In this Vision Time Series project, the 
 - **Data Preprocessing**: Raw cryptocurrency price data is cleaned and normalized to ensure consistent and accurate input for the model before turning into 4-hour arbitrary images, subsequently generating 4500 images per dataset. 
 - **Feature Engineering**: Custom features are generated to capture market trends and reduce dimensionality, resulting in a 60% reduction in feature correlation.
 - **Model Training**: The vision model (ViT, Swin, DeiT, etc.) is trained using the engineered features, with hyperparameters optimized for optimal performance.
-- **Evaluation**: The model is evaluated using standard metrics like Mean Absolute Error (MAE) and Root Mean Square Error (RMSE), showcasing its effectiveness in predicting market trends.
 
 ## Technologies Used
 
